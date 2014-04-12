@@ -1,12 +1,12 @@
 {
   "name": "ember-load-initializers",
   "main": "ember-load-initializers.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/stefanpenner/ember-load-initializers",
   "authors": [
     "Stefan Penner <stefan.penner@gmail.com>",
-    "Mattia Gheda  <ghedamat@gmail.com>",
-    "Manuel Wiedenmann",
+    "Mattia Gheda <ghedamat@gmail.com>",
+    "Manuel Wiedenmann <manuel@funkensturm.de>",
     "Alex Navasardyan <alex@dockyard.com>"
   ],
   "license": "MIT",
