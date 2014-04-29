@@ -14,6 +14,11 @@ define("ember/load-initializers",
           var module = require(moduleName, null, null, true);
           if (!module) { throw new Error(moduleName + ' must export an initializer.'); }
           var initializer = module['default'];
+          if (typeof initializer === 'function') {
+            initializer = {
+              initialize: initializer
+            };
+          }
           initializer.name = initializer.name || moduleName.split('/').pop();
           app.initializer(initializer);
         });
