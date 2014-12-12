@@ -13,7 +13,14 @@ define("ember/load-initializers",
         }).forEach(function(moduleName) {
           var module = require(moduleName, null, null, true);
           if (!module) { throw new Error(moduleName + ' must export an initializer.'); }
-          app.initializer(module['default']);
+
+          var initializer = module['default'];
+          if (!initializer.name) {
+            var initializerName = moduleName.match(/[^\/]+\/?$/)[0];
+            initializer.name = initializerName;
+          }
+
+          app.initializer(initializer);
         });
       }
     }
