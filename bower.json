@@ -1,7 +1,7 @@
 {
   "name": "ember-load-initializers",
   "main": "ember-load-initializers.js",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "homepage": "https://github.com/ember-cli/ember-load-initializers",
   "authors": [
     "Stefan Penner <stefan.penner@gmail.com>",
