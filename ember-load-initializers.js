@@ -6,12 +6,12 @@ define("ember/load-initializers",
 
     return {
       'default': function(app, prefix) {
-        var regex = new RegExp('(?:^' + prefix + ')?\/((?:instance-)?initializers)\/');
+        var regex = new RegExp('^' + prefix + '\/((?:instance-)?initializers)\/');
 
         Ember.keys(requirejs._eak_seen).map(function (moduleName) {
             return {
               moduleName: moduleName,
-              matches: !/(-test|\.jshint)$/i.test(moduleName) && regex.exec(moduleName)
+              matches: regex.exec(moduleName)
             };
           })
           .filter(function(dep) {
