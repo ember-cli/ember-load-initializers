@@ -11,8 +11,7 @@ define("ember/load-initializers",
         Ember.keys(requirejs._eak_seen).map(function (moduleName) {
             return {
               moduleName: moduleName,
-              matches: regex.exec(moduleName)
-            }
+              matches: regex.exec(moduleName) && !/\.jshint$/i.test(moduleName)
             };
           })
           .filter(function(dep) {
