@@ -13,6 +13,7 @@ define("ember/load-initializers",
               moduleName: moduleName,
               matches: regex.exec(moduleName)
             }
+            };
           })
           .filter(function(dep) {
             return dep.matches && dep.matches.length === 2;
