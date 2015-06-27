@@ -9,7 +9,7 @@ define("ember/load-initializers",
         var regex = new RegExp('^' + prefix + '\/((?:instance-)?initializers)\/');
         var getKeys = (Object.keys || Ember.keys);
 
-        getKeys(requirejs._eak_seen).map(function (moduleName) {
+        getKeys(Ember.__loader.require._eak_seen).map(function (moduleName) {
             return {
               moduleName: moduleName,
               matches: regex.exec(moduleName)
