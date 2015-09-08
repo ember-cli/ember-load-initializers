@@ -31,10 +31,12 @@ define("ember/load-initializers",
               initializer.name = initializerName;
             }
 
-            app[initializerType](initializer);
+            if (app[initializerType]) {
+              app[initializerType](initializer);
+            }
           });
       }
-    }
+    };
   }
 );
 })();
