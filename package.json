@@ -1,0 +1,22 @@
+{
+  "name": "ember-load-initializers",
+  "version": "0.2.0",
+  "description": "Ember loadInitializers is a tiny package to autoload your initializer files in EAK and ember-cli.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ember-cli/ember-load-initializers.git"
+  },
+  "author": "Stefan Penner <stefan.penner@gmail.com>, Mattia Gheda <ghedamat@gmail.com>, Manuel Wiedenmann <manuel@funkensturm.de>, Alex Navasardyan <alex@dockyard.com>",
+  "license": "MIT",
+  "keywords": [
+    "ember-addon"
+  ],
+  "bugs": {
+    "url": "https://github.com/ember-cli/ember-load-initializersder/issues"
+  },
+  "homepage": "https://github.com/ember-cli/ember-load-initializers#readme"
+}
