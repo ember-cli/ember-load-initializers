@@ -1,6 +1,6 @@
-"use strict";
+import Ember from 'ember';
 
-const loadInitializers = function(app, prefix) {
+export default function(app, prefix) {
   var regex = new RegExp('^' + prefix + '\/((?:instance-)?initializers)\/');
   var getKeys = (Object.keys || Ember.keys);
 
@@ -31,5 +31,3 @@ const loadInitializers = function(app, prefix) {
     }
   });
 }
-
-export default loadInitializers;
