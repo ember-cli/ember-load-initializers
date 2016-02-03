@@ -6,6 +6,11 @@ About
 
 Ember loadInitializers is a tiny package to autoload your initializer files in EAK and ember-cli.
 
+Ember-cli <2.3.0-beta.2
+-----------------------
+
+For those using ember-cli <2.3.0-beta.2, please use ember-load-initializers@0.1.7 instead of the current version.
+
 License
 -------
 
