@@ -1,6 +1,6 @@
 {
   "name": "ember-load-initializers",
-  "version": "0.2.0",
+  "version": "0.5.0",
   "description": "Ember loadInitializers is a tiny package to autoload your initializer files in EAK and ember-cli.",
   "main": "index.js",
   "scripts": {
