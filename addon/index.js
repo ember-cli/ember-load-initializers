@@ -3,17 +3,22 @@ import Ember from 'ember';
 export default function(app, prefix) {
   var regex = new RegExp('^' + prefix + '\/((?:instance-)?initializers)\/');
   var getKeys = (Object.keys || Ember.keys);
+  var moduleNames = getKeys(requirejs._eak_seen);
 
-  getKeys(requirejs._eak_seen).map(function (moduleName) {
-    return {
-      moduleName: moduleName,
-      matches: regex.exec(moduleName)
-    };
-  })
-  .filter(function(dep) {
-    return dep.matches && dep.matches.length === 2;
-  })
-  .forEach(function(dep) {
+  var deps = [];
+  for (var i = 0; i < moduleNames.length; i++) {
+    var moduleName = moduleNames[i];
+    var matches = regex.exec(moduleName);
+
+    if (matches && matches.length === 2) {
+      deps.push({
+        moduleName: moduleName,
+        matches: matches
+      });
+    }
+  }
+
+  deps.forEach(function(dep) {
     var moduleName = dep.moduleName;
 
     var module = require(moduleName, null, null, true);
