@@ -1,4 +1,4 @@
-# Ember-load-initializers
+# Ember-load-initializers [![Build Status](https://travis-ci.org/ember-cli/ember-load-initializers.svg?branch=master)](https://travis-ci.org/ember-cli/ember-load-initializers)
 
 This README outlines the details of collaborating on this Ember addon.
 
