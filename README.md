@@ -1,17 +1,26 @@
-Ember load initializers
-===========
+# Ember-load-initializers [![Build Status](https://travis-ci.org/ember-cli/ember-load-initializers.svg?branch=master)](https://travis-ci.org/ember-cli/ember-load-initializers)
 
-About
------
+This README outlines the details of collaborating on this Ember addon.
 
-Ember loadInitializers is a tiny package to autoload your initializer files in EAK and ember-cli.
+## Installation
 
-Ember-cli <2.3.0-beta.2
------------------------
+* `git clone` this repository
+* `npm install`
+* `bower install`
 
-For those using ember-cli <2.3.0-beta.2, please use ember-load-initializers@0.1.7 instead of the current version.
+## Running
 
-License
--------
+* `ember serve`
+* Visit your app at http://localhost:4200.
 
-Ember loadInitializers is [MIT Licensed](https://github.com/ember-cli/ember-load-initializers/blob/master/LICENSE.md).
+## Running Tests
+
+* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
+* `ember test`
+* `ember test --server`
+
+## Building
+
+* `ember build`
+
+For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
