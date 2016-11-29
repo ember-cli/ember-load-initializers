@@ -1,6 +1,6 @@
 {
   "name": "ember-load-initializers",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "description": "A tiny add-on to autoload your initializer files in ember-cli.",
   "main": "index.js",
   "directories": {
