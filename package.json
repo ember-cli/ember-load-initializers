@@ -12,7 +12,7 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "repo": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/ember-cli/ember-load-initializers.git"
   },
@@ -51,6 +51,5 @@
   "bugs": {
     "url": "https://github.com/ember-cli/ember-load-initializersder/issues"
   },
-  "homepage": "https://github.com/ember-cli/ember-load-initializers#readme",
-  "repository": "git@github.com:ember-cli/ember-load-initializers.git"
+  "homepage": "https://github.com/ember-cli/ember-load-initializers#readme"
 }
