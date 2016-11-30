@@ -16,7 +16,12 @@
     "type": "git",
     "url": "git+https://github.com/ember-cli/ember-load-initializers.git"
   },
-  "author": "Stefan Penner <stefan.penner@gmail.com>, Mattia Gheda <ghedamat@gmail.com>, Manuel Wiedenmann <manuel@funkensturm.de>, Alex Navasardyan <alex@dockyard.com>",
+  "contributors": [
+    "Stefan Penner <stefan.penner@gmail.com>",
+    "Mattia Gheda <ghedamat@gmail.com>",
+    "Manuel Wiedenmann <manuel@funkensturm.de>",
+    "Alex Navasardyan <alex@dockyard.com>"
+  ],
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
