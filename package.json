@@ -2,22 +2,34 @@
   "name": "ember-load-initializers",
   "version": "0.6.1",
   "description": "A tiny add-on to autoload your initializer files in ember-cli.",
+  "keywords": [
+    "ember-addon"
+  ],
+  "homepage": "https://github.com/ember-cli/ember-load-initializers#readme",
+  "bugs": {
+    "url": "https://github.com/ember-cli/ember-load-initializersder/issues"
+  },
+  "license": "MIT",
+  "contributors": [
+    "Stefan Penner <stefan.penner@gmail.com>",
+    "Mattia Gheda <ghedamat@gmail.com>",
+    "Manuel Wiedenmann <manuel@funkensturm.de>",
+    "Alex Navasardyan <alex@dockyard.com>"
+  ],
   "main": "index.js",
   "directories": {
     "doc": "doc",
     "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ember-cli/ember-load-initializers.git"
   },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
   },
-  "repo": {
-    "type": "git",
-    "url": "git+https://github.com/ember-cli/ember-load-initializers.git"
-  },
-  "author": "Stefan Penner <stefan.penner@gmail.com>, Mattia Gheda <ghedamat@gmail.com>, Manuel Wiedenmann <manuel@funkensturm.de>, Alex Navasardyan <alex@dockyard.com>",
-  "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
     "ember-ajax": "^2.0.1",
@@ -44,13 +56,5 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  },
-  "keywords": [
-    "ember-addon"
-  ],
-  "bugs": {
-    "url": "https://github.com/ember-cli/ember-load-initializersder/issues"
-  },
-  "homepage": "https://github.com/ember-cli/ember-load-initializers#readme",
-  "repository": "git@github.com:ember-cli/ember-load-initializers.git"
+  }
 }
