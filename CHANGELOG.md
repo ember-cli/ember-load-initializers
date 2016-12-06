@@ -1,12 +1,36 @@
 # Change Log
 
+## [v0.6.3](https://github.com/ember-cli/ember-load-initializers/tree/v0.6.3) (2016-12-06)
+[Full Changelog](https://github.com/ember-cli/ember-load-initializers/compare/v0.6.2...v0.6.3)
+
+**Merged pull requests:**
+
+- Add ember-cli-babel as a dependency \(not devDep\). [\#37](https://github.com/ember-cli/ember-load-initializers/pull/37) ([rwjblue](https://github.com/rwjblue))
+
+## [v0.6.2](https://github.com/ember-cli/ember-load-initializers/tree/v0.6.2) (2016-12-01)
+[Full Changelog](https://github.com/ember-cli/ember-load-initializers/compare/v0.6.1...v0.6.2)
+
+**Implemented enhancements:**
+
+- Add Changelog [\#33](https://github.com/ember-cli/ember-load-initializers/issues/33)
+- Add repository information to package.json [\#32](https://github.com/ember-cli/ember-load-initializers/issues/32)
+- Clean up "package.json" file [\#35](https://github.com/ember-cli/ember-load-initializers/pull/35) ([Turbo87](https://github.com/Turbo87))
+- Add Changelog [\#34](https://github.com/ember-cli/ember-load-initializers/pull/34) ([Turbo87](https://github.com/Turbo87))
+
+**Merged pull requests:**
+
+- Remove public directory files. [\#36](https://github.com/ember-cli/ember-load-initializers/pull/36) ([nathanhammond](https://github.com/nathanhammond))
+
+## [v0.6.1](https://github.com/ember-cli/ember-load-initializers/tree/v0.6.1) (2016-11-30)
+[Full Changelog](https://github.com/ember-cli/ember-load-initializers/compare/v0.6.0...v0.6.1)
+
 ## [v0.6.0](https://github.com/ember-cli/ember-load-initializers/tree/v0.6.0) (2016-11-29)
 [Full Changelog](https://github.com/ember-cli/ember-load-initializers/compare/v0.5.1...v0.6.0)
 
 **Closed issues:**
 
 - Shouldn't v0.5.1 be marked as the latest release? [\#29](https://github.com/ember-cli/ember-load-initializers/issues/29)
-- Adding `__esModule: true` property [\#27](https://github.com/ember-cli/ember-load-initializers/issues/27)
+- Adding `\_\_esModule: true` property [\#27](https://github.com/ember-cli/ember-load-initializers/issues/27)
 - Build failure: File not found [\#25](https://github.com/ember-cli/ember-load-initializers/issues/25)
 - ci [\#4](https://github.com/ember-cli/ember-load-initializers/issues/4)
 - tests [\#3](https://github.com/ember-cli/ember-load-initializers/issues/3)
