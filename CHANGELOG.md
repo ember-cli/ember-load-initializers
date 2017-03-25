@@ -1,5 +1,18 @@
 # Change Log
 
+## [v1.0.0](https://github.com/ember-cli/ember-load-initializers/tree/v1.0.0) (2017-03-25)
+[Full Changelog](https://github.com/ember-cli/ember-load-initializers/compare/v0.6.3...v1.0.0)
+
+**Closed issues:**
+
+- Ember 2.12 incompatibility? [\#40](https://github.com/ember-cli/ember-load-initializers/issues/40)
+
+**Merged pull requests:**
+
+- Update to Babel 6. [\#41](https://github.com/ember-cli/ember-load-initializers/pull/41) ([rwjblue](https://github.com/rwjblue))
+- CI: Enable automatic NPM deployment for tags [\#39](https://github.com/ember-cli/ember-load-initializers/pull/39) ([Turbo87](https://github.com/Turbo87))
+- Update CHANGELOG [\#38](https://github.com/ember-cli/ember-load-initializers/pull/38) ([Turbo87](https://github.com/Turbo87))
+
 ## [v0.6.3](https://github.com/ember-cli/ember-load-initializers/tree/v0.6.3) (2016-12-06)
 [Full Changelog](https://github.com/ember-cli/ember-load-initializers/compare/v0.6.2...v0.6.3)
 
