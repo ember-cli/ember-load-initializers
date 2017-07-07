@@ -23,6 +23,10 @@ function registerInstanceInitializers(app, moduleNames) {
 }
 
 export default function (app, prefix) {
+  var EMBER_MODULE_UNIFICATION = true;
+  if (EMBER_MODULE_UNIFICATION) {
+    prefix = prefix + '/src/init';
+  }
   var initializerPrefix =  prefix + '/initializers/';
   var instanceInitializerPrefix =  prefix + '/instance-initializers/';
   var initializers = [];
