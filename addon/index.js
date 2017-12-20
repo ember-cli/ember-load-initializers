@@ -1,4 +1,4 @@
-/* global requirejs:false */
+/* global requirejs:false, require:false */
 function resolveInitializer(moduleName) {
   var module = require(moduleName, null, null, true);
   if (!module) {
