@@ -1,4 +1,4 @@
-# Ember-load-initializers [![Build Status](https://travis-ci.org/ember-cli/ember-load-initializers.svg?branch=master)](https://travis-ci.org/ember-cli/ember-load-initializers)
+# Ember-load-initializers. [![Build Status](https://travis-ci.org/ember-cli/ember-load-initializers.svg?branch=master)](https://travis-ci.org/ember-cli/ember-load-initializers)
 
 A tiny add-on to autoload your initializer files in ember-cli.
 
