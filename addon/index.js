@@ -23,6 +23,10 @@ function registerInstanceInitializers(app, moduleNames) {
   }
 }
 
+function _endsWith(str, suffix) {
+  return str.indexOf(suffix, str.length - suffix.length) !== -1;
+}
+
 export default function (app, prefix) {
   var initializerPrefix =  prefix + '/initializers/';
   var instanceInitializerPrefix =  prefix + '/instance-initializers/';
@@ -34,9 +38,13 @@ export default function (app, prefix) {
   for (var i = 0; i < moduleNames.length; i++) {
     var moduleName = moduleNames[i];
     if (moduleName.lastIndexOf(initializerPrefix, 0) === 0) {
-      initializers.push(moduleName);
+      if (!_endsWith(moduleName, '-test')) {
+        initializers.push(moduleName);
+      }
     } else if (moduleName.lastIndexOf(instanceInitializerPrefix, 0) === 0) {
-      instanceInitializers.push(moduleName);
+      if (!_endsWith(moduleName, '-test')) {
+        instanceInitializers.push(moduleName);
+      }
     }
   }
   registerInitializers(app, initializers);
