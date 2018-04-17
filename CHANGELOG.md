@@ -1,5 +1,22 @@
 # Change Log
 
+## [v1.1.0](https://github.com/ember-cli/ember-load-initializers/tree/v1.1.0) (2018-04-17)
+[Full Changelog](https://github.com/ember-cli/ember-load-initializers/compare/v1.0.0...v1.1.0)
+
+**Closed issues:**
+
+- module unification: initializer test files are included for `ember serve` [\#47](https://github.com/ember-cli/ember-load-initializers/issues/47)
+- your releases page seems out of date [\#43](https://github.com/ember-cli/ember-load-initializers/issues/43)
+
+**Merged pull requests:**
+
+- allow colocated test files [\#53](https://github.com/ember-cli/ember-load-initializers/pull/53) ([GavinJoyce](https://github.com/GavinJoyce))
+- Update ember-cli to 3.1.2 [\#52](https://github.com/ember-cli/ember-load-initializers/pull/52) ([eliasmelgaco](https://github.com/eliasmelgaco))
+- bump dependencies, refactor tests slightly [\#51](https://github.com/ember-cli/ember-load-initializers/pull/51) ([efx](https://github.com/efx))
+- fix linting config [\#49](https://github.com/ember-cli/ember-load-initializers/pull/49) ([efx](https://github.com/efx))
+- internal clean up for contributing [\#48](https://github.com/ember-cli/ember-load-initializers/pull/48) ([efx](https://github.com/efx))
+- fix code of conduct markdown [\#46](https://github.com/ember-cli/ember-load-initializers/pull/46) ([efx](https://github.com/efx))
+
 ## [v1.0.0](https://github.com/ember-cli/ember-load-initializers/tree/v1.0.0) (2017-03-25)
 [Full Changelog](https://github.com/ember-cli/ember-load-initializers/compare/v0.6.3...v1.0.0)
 
