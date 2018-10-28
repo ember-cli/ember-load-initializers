@@ -1,34 +1,44 @@
-# Ember-load-initializers [![Build Status](https://travis-ci.org/ember-cli/ember-load-initializers.svg?branch=master)](https://travis-ci.org/ember-cli/ember-load-initializers)
+Ember-load-initializers [![Build Status](https://travis-ci.org/ember-cli/ember-load-initializers.svg?branch=master)](https://travis-ci.org/ember-cli/ember-load-initializers)
+==============================================================================
 
 A tiny add-on to autoload your initializer files in ember-cli.
 
-## Usage
+Installation
+------------------------------------------------------------------------------
 
-```sh
+```
 ember install ember-load-initializers
 ```
 
-This README outlines the details of collaborating on this Ember addon.
+Contributing
+------------------------------------------------------------------------------
 
-## Installation
+### Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+* `git clone https://github.com/ember-cli/ember-load-initializers.git`
+* `cd ember-load-initializers`
+* `yarn`
 
-## Running
+### Linting
+
+* `yarn lint:hbs`
+* `yarn lint:js`
+* `yarn lint:js -- --fix`
+
+### Running tests
+
+* `ember test` – Runs the test suite on the current Ember version
+* `ember test --server` – Runs the test suite in "watch mode"
+* `ember try:each` – Runs the test suite against multiple Ember versions
+
+### Running the dummy application
 
 * `ember serve`
-* Visit your app at http://localhost:4200.
+* Visit the dummy application at [http://localhost:4200](http://localhost:4200).
 
-## Running Tests
+For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
 
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+License
+------------------------------------------------------------------------------
 
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+This project is licensed under the [MIT License](LICENSE.md).
