@@ -1,5 +1,23 @@
 # Change Log
 
+## v2.0.0 (2018-10-29)
+
+#### :boom: Breaking Change
+* [#57](https://github.com/ember-cli/ember-load-initializers/pull/57) Update ember-cli-babel to 7. ([@rwjblue](https://github.com/rwjblue))
+* [#56](https://github.com/ember-cli/ember-load-initializers/pull/56) Drop support for Node 4 ([@loganrosen](https://github.com/loganrosen))
+* [#56](https://github.com/ember-cli/ember-load-initializers/pull/56) Drop support for ember-cli prior to 2.12 ([@loganrosen](https://github.com/loganrosen))
+
+#### :rocket: Enhancement
+* [#56](https://github.com/ember-cli/ember-load-initializers/pull/56) Modernize to Ember CLI 3.5 blueprint ([@loganrosen](https://github.com/loganrosen))
+
+#### :memo: Documentation
+* [#55](https://github.com/ember-cli/ember-load-initializers/pull/55) Fixing url typo ([@thoov](https://github.com/thoov))
+
+#### Committers: 3
+- Logan Rosen ([@loganrosen](https://github.com/loganrosen))
+- Robert Jackson ([@rwjblue](https://github.com/rwjblue))
+- Travis Hoover ([@thoov](https://github.com/thoov))
+
 ## [v1.1.0](https://github.com/ember-cli/ember-load-initializers/tree/v1.1.0) (2018-04-17)
 [Full Changelog](https://github.com/ember-cli/ember-load-initializers/compare/v1.0.0...v1.1.0)
 
