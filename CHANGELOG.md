@@ -1,3 +1,21 @@
+## v2.1.0 (2019-08-26)
+
+#### :rocket: Enhancement
+* [#111](https://github.com/ember-cli/ember-load-initializers/pull/111) Add typescript support ([@ro0gr](https://github.com/ro0gr))
+
+#### :memo: Documentation
+* [#125](https://github.com/ember-cli/ember-load-initializers/pull/125) Add more detailed explanation to README. ([@abhilashlr](https://github.com/abhilashlr))
+
+#### :house: Internal
+* [#77](https://github.com/ember-cli/ember-load-initializers/pull/77) TravisCI: Remove deprecated `sudo: false` option ([@Turbo87](https://github.com/Turbo87))
+* [#73](https://github.com/ember-cli/ember-load-initializers/pull/73) Remove unused dependencies ([@Turbo87](https://github.com/Turbo87))
+
+#### Committers: 4
+- Ruslan Hrabovyi ([@ro0gr](https://github.com/ro0gr))
+- Tobias Bieniek ([@Turbo87](https://github.com/Turbo87))
+- [@dependabot-preview[bot]](https://github.com/apps/dependabot-preview)
+- abhilashlr ([@abhilashlr](https://github.com/abhilashlr))
+
 ## v2.0.0 (2018-10-29)
 
 #### :boom: Breaking Change
