@@ -5,19 +5,15 @@
   "keywords": [
     "ember-addon"
   ],
+  "homepage": "https://github.com/ember-cli/ember-load-initializers#readme",
+  "bugs": {
+    "url": "https://github.com/ember-cli/ember-load-initializers/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ember-cli/ember-load-initializers.git"
   },
   "license": "MIT",
-  "directories": {
-    "doc": "doc",
-    "test": "tests"
-  },
-  "homepage": "https://github.com/ember-cli/ember-load-initializers#readme",
-  "bugs": {
-    "url": "https://github.com/ember-cli/ember-load-initializers/issues"
-  },
   "contributors": [
     "Stefan Penner <stefan.penner@gmail.com>",
     "Mattia Gheda <ghedamat@gmail.com>",
@@ -25,17 +21,18 @@
     "Alex Navasardyan <alex@dockyard.com>"
   ],
   "main": "index.js",
-  "engines": {
-    "node": "6.* || 8.* || >= 10.*"
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
   },
   "scripts": {
     "build": "ember build",
     "lint:js": "eslint .",
+    "prepublishOnly": "ember ts:precompile",
+    "postpublish": "ember ts:clean",
     "start": "ember serve",
     "test": "ember test",
-    "test:all": "ember try:each",
-    "prepublishOnly": "ember ts:precompile",
-    "postpublish": "ember ts:clean"
+    "test:all": "ember try:each"
   },
   "dependencies": {
     "ember-cli-babel": "^7.10.0",
@@ -70,9 +67,30 @@
     "eslint-plugin-node": "^8.0.0",
     "lerna-changelog": "^0.8.2",
     "loader.js": "^4.7.0",
+    "release-it": "^12.2.1",
+    "release-it-lerna-changelog": "^1.0.3",
     "typescript": "^3.3.3333"
+  },
+  "engines": {
+    "node": "6.* || 8.* || >= 10.*"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
+  },
+  "release-it": {
+    "plugins": {
+      "release-it-lerna-changelog": {
+        "infile": "CHANGELOG.md"
+      }
+    },
+    "git": {
+      "tagName": "v${version}"
+    },
+    "github": {
+      "release": true
+    }
   }
 }
