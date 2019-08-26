@@ -1,5 +1,7 @@
-/* global requirejs:false, require:false */
-function resolveInitializer(moduleName) {
+import Engine from '@ember/engine';
+import require from 'require';
+
+function resolveInitializer(moduleName: string) {
   var module = require(moduleName, null, null, true);
   if (!module) {
     throw new Error(moduleName + ' must export an initializer.');
@@ -11,30 +13,33 @@ function resolveInitializer(moduleName) {
   return initializer;
 }
 
-function registerInitializers(app, moduleNames) {
+function registerInitializers(app: typeof Engine, moduleNames: string[]) {
   for (var i = 0; i < moduleNames.length; i++) {
     app.initializer(resolveInitializer(moduleNames[i]));
   }
 }
 
-function registerInstanceInitializers(app, moduleNames) {
+function registerInstanceInitializers(app: typeof Engine, moduleNames: string[]) {
   for (var i = 0; i < moduleNames.length; i++) {
     app.instanceInitializer(resolveInitializer(moduleNames[i]));
   }
 }
 
-function _endsWith(str, suffix) {
+function _endsWith(str: string, suffix: string): boolean {
   return str.indexOf(suffix, str.length - suffix.length) !== -1;
 }
 
-export default function (app, prefix) {
+/**
+ * Configure your application as it boots
+ */
+export default function loadInitializers(app: typeof Engine, prefix: string): void {
   var initializerPrefix =  prefix + '/initializers/';
   var instanceInitializerPrefix =  prefix + '/instance-initializers/';
   var initializers = [];
   var instanceInitializers = [];
   // this is 2 pass because generally the first pass is the problem
   // and is reduced, and resolveInitializer has potential to deopt
-  var moduleNames = Object.keys(requirejs._eak_seen);
+  var moduleNames = Object.keys(self.requirejs._eak_seen);
   for (var i = 0; i < moduleNames.length; i++) {
     var moduleName = moduleNames[i];
     if (moduleName.lastIndexOf(initializerPrefix, 0) === 0) {
