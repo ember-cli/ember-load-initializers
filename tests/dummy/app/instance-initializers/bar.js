@@ -5,5 +5,5 @@ export function initialize(/* appInstance */) {
 
 export default {
   name: 'bar',
-  initialize
+  initialize,
 };

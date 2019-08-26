@@ -33,8 +33,8 @@ function _endsWith(str: string, suffix: string): boolean {
  * Configure your application as it boots
  */
 export default function loadInitializers(app: typeof Engine, prefix: string): void {
-  var initializerPrefix =  prefix + '/initializers/';
-  var instanceInitializerPrefix =  prefix + '/instance-initializers/';
+  var initializerPrefix = prefix + '/initializers/';
+  var instanceInitializerPrefix = prefix + '/instance-initializers/';
   var initializers = [];
   var instanceInitializers = [];
   // this is 2 pass because generally the first pass is the problem
