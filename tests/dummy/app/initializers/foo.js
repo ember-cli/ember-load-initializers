@@ -5,5 +5,5 @@ export function initialize(/* application */) {
 
 export default {
   name: 'foo',
-  initialize
+  initialize,
 };

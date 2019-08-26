@@ -19,7 +19,7 @@ const App = Application.extend({
 
     delete self.fooInitializeWasCalled;
     delete self.barInitializeWasCalled;
-  }
+  },
 });
 
 loadInitializers(App, config.modulePrefix);
