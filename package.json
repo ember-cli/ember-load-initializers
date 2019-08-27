@@ -47,7 +47,7 @@
     "@types/ember-testing-helpers": "^0.0.3",
     "@types/ember__engine": "^3.0.4",
     "@types/ember__test-helpers": "^0.7.8",
-    "@types/qunit": "^2.5.4",
+    "@types/qunit": "^2.9.0",
     "@types/rsvp": "^4.0.2",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
