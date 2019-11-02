@@ -1,3 +1,14 @@
+## v2.1.1 (2019-11-02)
+
+#### :bug: Bug Fix
+* [#205](https://github.com/ember-cli/ember-load-initializers/pull/205) Do not assume global variables are assigned to `self`. ([@rwjblue](https://github.com/rwjblue))
+
+#### :house: Internal
+* [#159](https://github.com/ember-cli/ember-load-initializers/pull/159) Fixup eslint setup for typescript conversion. ([@rwjblue](https://github.com/rwjblue))
+
+#### Committers: 1
+- Robert Jackson ([@rwjblue](https://github.com/rwjblue))
+
 ## v2.1.0 (2019-08-26)
 
 #### :rocket: Enhancement
