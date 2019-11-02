@@ -76,6 +76,9 @@
     "release-it-lerna-changelog": "^1.0.3",
     "typescript": "^3.6.3"
   },
+  "resolutions": {
+    "**/engine.io": "~3.3.0"
+  },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
   },
