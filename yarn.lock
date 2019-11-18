@@ -986,10 +986,10 @@
     "@types/ember" "*"
     "@types/ember-test-helpers" "*"
 
-"@types/ember-resolver@^5.0.6":
-  version "5.0.6"
-  resolved "https://registry.yarnpkg.com/@types/ember-resolver/-/ember-resolver-5.0.6.tgz#ad6abdeeeef0daec650f064675d9bfba5828bbe2"
-  integrity sha512-/5DShdFcp6OiUmWp3HxhuAuzNRRjOuQWzSvbvSERUx0QBD2/nmfB823DQvC+1Z8McKF8M1Q5VvTAlWsikJmHeg==
+"@types/ember-resolver@^5.0.7":
+  version "5.0.7"
+  resolved "https://registry.yarnpkg.com/@types/ember-resolver/-/ember-resolver-5.0.7.tgz#154cada3f6ef0f13782ed358b04f28db9e5d4542"
+  integrity sha512-DJtHOVVXzwkueLwRl1GMmL6IUV2/zW4WvIJUUXUofIoZMBkP3/4M6LxCFkkvbyZEZhB2hHgAAq6my/V8z49DNg==
   dependencies:
     "@types/ember" "*"
 
