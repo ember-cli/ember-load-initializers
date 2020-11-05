@@ -13,6 +13,9 @@ function resolveInitializer(moduleName: string) {
     throw new Error(moduleName + ' must export an initializer.');
   }
   var initializer = module['default'];
+  if (!initializer) {
+    throw new Error(moduleName + ' must have a default export');
+  }
   if (!initializer.name) {
     initializer.name = moduleName.slice(moduleName.lastIndexOf('/') + 1);
   }
