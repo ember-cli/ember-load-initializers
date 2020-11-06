@@ -1,3 +1,12 @@
+## v2.1.2 (2020-11-06)
+
+#### :bug: Bug Fix
+* [#278](https://github.com/ember-cli/ember-load-initializers/pull/278) Fail explicitly when initializer does not have default export ([@mehulkar](https://github.com/mehulkar))
+
+#### Committers: 2
+- Mehul Kar ([@mehulkar](https://github.com/mehulkar))
+- [@dependabot-preview[bot]](https://github.com/apps/dependabot-preview)
+
 ## v2.1.1 (2019-11-02)
 
 #### :bug: Bug Fix
