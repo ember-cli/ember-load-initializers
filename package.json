@@ -27,11 +27,11 @@
   },
   "scripts": {
     "build": "ember build",
-    "lint:js": "eslint --cache --ext js,ts .",
+    "lint": "eslint --cache --ext js,ts .",
     "prepublishOnly": "ember ts:precompile",
     "postpublish": "ember ts:clean",
     "start": "ember serve",
-    "test": "ember test",
+    "test:ember": "ember test",
     "test:all": "ember try:each"
   },
   "dependencies": {
@@ -100,5 +100,8 @@
     "github": {
       "release": true
     }
+  },
+  "volta": {
+    "node": "10.24.1"
   }
 }
