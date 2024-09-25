@@ -1,3 +1,15 @@
+Version 9 of Highlight.js has reached EOL and is no longer supported.
+Please upgrade or ask whatever dependency you are using to upgrade.
+https://github.com/highlightjs/highlight.js/issues/2877
+
+## v3.0.0 (2024-09-25)
+
+#### :boom: Breaking Change
+* [#306](https://github.com/ember-cli/ember-load-initializers/pull/306) Convert to plain library with explicitModules support ([@ef4](https://github.com/ef4))
+
+#### Committers: 1
+- Edward Faulkner ([@ef4](https://github.com/ef4))
+
 ## v2.1.2 (2020-11-06)
 
 #### :bug: Bug Fix
