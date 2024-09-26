@@ -2,6 +2,18 @@ Version 9 of Highlight.js has reached EOL and is no longer supported.
 Please upgrade or ask whatever dependency you are using to upgrade.
 https://github.com/highlightjs/highlight.js/issues/2877
 
+## v3.0.1 (2024-09-26)
+
+#### :bug: Bug Fix
+* [#308](https://github.com/ember-cli/ember-load-initializers/pull/308) Fix export for declaration files (TS) ([@mkszepp](https://github.com/mkszepp))
+
+#### Committers: 1
+- Markus Sanin ([@mkszepp](https://github.com/mkszepp))
+
+Version 9 of Highlight.js has reached EOL and is no longer supported.
+Please upgrade or ask whatever dependency you are using to upgrade.
+https://github.com/highlightjs/highlight.js/issues/2877
+
 ## v3.0.0 (2024-09-25)
 
 #### :boom: Breaking Change
