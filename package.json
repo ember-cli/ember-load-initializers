@@ -9,7 +9,10 @@
     "url": "https://github.com/ember-cli/ember-load-initializers/issues"
   },
   "exports": {
-    ".": "dist/index.js"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
   },
   "main": "dist/index.js",
   "repository": {
